@@ -1,0 +1,13 @@
+.I_Album_Item{
+  width:100%;
+  img{
+    width:100%;
+    height:100%;
+    border-radius:25px;
+    opacity:0.6;
+    cursor:pointer;
+    &:hover{
+      opacity:1;
+    }
+  }
+}

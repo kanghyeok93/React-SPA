@@ -1,0 +1,29 @@
+.Menu{
+  ul{
+    z-index:100;
+    padding:0; margin:0;
+    position:absolute;
+    width:135px;
+    top:25vh;
+    right:20vh;
+    font-size:1.5rem;
+    display:inline-block;
+    transition:ease 0.009s;
+    li{
+      text-align:center;
+      padding:15px;
+      list-style-type: none;
+      transition:ease 0.009s;
+      .active { text-shadow:6px 2px 2px red;}
+      a{
+        text-decoration: none;
+        color:white;
+        font-family: 'Sofia', cursive;
+        transition:ease 0.009s;
+        &:hover{
+          text-shadow:6px 2px 2px red;
+        }
+      }
+    }
+  }
+}
