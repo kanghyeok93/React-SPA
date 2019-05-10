@@ -1,6 +1,6 @@
 # React-SPA  
 
-### 리액트와 리덕스를 이용한 SPA 팬사이트    
+### 리액트와 리덕스를 이용한 SPA 팬 사이트    
 
 ### Client  
 frontend technologies used in this project:  
