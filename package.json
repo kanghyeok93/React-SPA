@@ -24,8 +24,7 @@
     "start": "cross-env NODE_PATH=src react-scripts start",
     "build": "cross-env NODE_PATH=src react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "deploy": "npm run build&&gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,7 +41,6 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://kanghyeok93.github.io/IU-SPA",
   "devDependencies": {
     "cross-env": "^5.2.0",
     "gh-pages": "^2.0.1"
